@@ -1,0 +1,44 @@
+{
+  "name": "egg-boilerplate-microservice",
+  "version": "1.0.0",
+  "description": "boilerplate for egg microservice",
+  "dependencies": {},
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "egg-bin": "^4.3.7",
+    "egg-ci": "^1.8.0",
+    "eslint": "^4.18.1",
+    "eslint-config-egg": "^7.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "autod": "autod",
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-boilerplate",
+    "ci": "npm run lint && npm run ci-boilerplate",
+    "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
+    "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
+    "clean": "rm -rf boilerplate/.idea boilerplate/logs boilerplate/node_modules boilerplate/run",
+    "build": "npm run clean && egg-init dist --force --silent --template=./",
+    "install-deps": "cd dist && npm i autod-egg && ../node_modules/.bin/autod && npm i"
+  },
+  "ci": {
+    "version": "8"
+  },
+  "eslintIgnore": ["coverage", "dist"],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "author": "gxcsoccer <gxcsoccer@126.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/eggjs/egg-boilerplate-microservice",
+  "bugs": "https://github.com/eggjs/egg/issues"
+}
