@@ -36,10 +36,6 @@
     "type": "git",
     "url": ""
   },
-  "files": [
-    "lib",
-    "index.js"
-  ],
   "author": "gxcsoccer <gxcsoccer@126.com>",
   "license": "MIT",
   "homepage": "https://github.com/eggjs/egg-boilerplate-microservice",
