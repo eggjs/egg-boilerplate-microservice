@@ -1,4 +1,10 @@
 
+0.0.1 / 2018-10-10
+==================
+
+**fixes**
+  * [[`bfacd16`](http://github.com/eggjs/egg-boilerplate-microservice/commit/bfacd16ae4a922f44b7c2408ad92a8322f4b4e85)] - fix: remove package files (gxcsoccer <<gxcsoccer@126.com>>)
+
 0.0.0 / 2018-10-10
 ==================
 
