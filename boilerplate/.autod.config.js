@@ -9,7 +9,7 @@ module.exports = {
     'benchmark',
   ],
   dep: [
-    'sofa-node-demo',
+    'sofa-node',
     'egg-scripts',
   ],
   devdep: [

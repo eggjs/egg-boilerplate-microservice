@@ -1,6 +1,6 @@
 'use strict';
 
-const Controller = require('sofa-node-demo').Controller;
+const Controller = require('sofa-node').Controller;
 
 class HomeController extends Controller {
   async index() {

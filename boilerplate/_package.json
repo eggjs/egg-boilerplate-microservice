@@ -4,7 +4,7 @@
   "description": "{{description}}",
   "private": true,
   "egg": {
-    "framework": "sofa-node-demo"
+    "framework": "sofa-node"
   },
   "scripts": {
     "start": "npm run init && egg-scripts start --daemon --title=egg-server-{{name}}",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "egg-scripts": "^2.9.1",
-    "sofa-node-demo": "^1.0.1"
+    "sofa-node": "^0.0.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",
