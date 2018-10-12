@@ -1,4 +1,10 @@
 
+1.0.0 / 2018-10-12
+==================
+
+**others**
+  * [[`baa6c5b`](http://github.com/eggjs/egg-boilerplate-microservice/commit/baa6c5b245b0af952b6b61a259ef62bd6b90f9ce)] - chore: use sofa-node instead of sofa-node-demo (gxcsoccer <<gxcsoccer@126.com>>)
+
 0.0.1 / 2018-10-10
 ==================
 
