@@ -1,6 +1,6 @@
-# egg-boilerplate-ts
+# egg-boilerplate-microservice
 
-Boilerplate for egg typescript.
+Boilerplate for egg microservice.
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
