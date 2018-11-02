@@ -1,4 +1,13 @@
 
+1.1.0 / 2018-11-03
+==================
+
+**features**
+  * [[`e3c6f6a`](http://github.com/eggjs/egg-boilerplate-microservice/commit/e3c6f6aca007b6cceb91e6a77d1e12bf0476766c)] - feat: use egg-cloud instead of sofa-node (#4) (zōng yǔ <<gxcsoccer@users.noreply.github.com>>)
+
+**fixes**
+  * [[`1fc8904`](http://github.com/eggjs/egg-boilerplate-microservice/commit/1fc8904a90b6dbcdfd2c26b8b82988366c6f9486)] - fix: typo bug (#3) (lewis liu <<897473127@qq.com>>)
+
 1.0.0 / 2018-10-12
 ==================
 
