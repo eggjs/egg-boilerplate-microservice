@@ -8,7 +8,7 @@ describe('test/app/controller/home.test.js', () => {
     return app.httpRequest()
       .get('/')
       .expect({
-        id: 123456
+        id: 123456,
         name: '宗羽',
         address: '蚂蚁 C 空间',
         salary: 100000000,
