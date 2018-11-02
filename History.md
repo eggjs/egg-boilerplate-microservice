@@ -1,4 +1,10 @@
 
+1.1.1 / 2018-11-03
+==================
+
+**fixes**
+  * [[`0b2252f`](http://github.com/eggjs/egg-boilerplate-microservice/commit/0b2252ff7af73edaa7665a3dbc837baf1b079a58)] - fix: template bug (#5) (zōng yǔ <<gxcsoccer@users.noreply.github.com>>)
+
 1.1.0 / 2018-11-03
 ==================
 
