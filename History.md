@@ -1,4 +1,10 @@
 
+1.2.0 / 2018-11-30
+==================
+
+**others**
+  * [[`14746f6`](http://github.com/eggjs/egg-boilerplate-microservice/commit/14746f6bbfe1105924e71f84cb76053a16f51833)] - chore: upgrade egg-cloud to 0.2.0 (#6) (zōng yǔ <<gxcsoccer@users.noreply.github.com>>)
+
 1.1.1 / 2018-11-03
 ==================
 
